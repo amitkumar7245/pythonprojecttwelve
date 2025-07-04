@@ -31,8 +31,8 @@ html_static_path = ['_static']
 
 def add_custom_meta_tags(app, pagename, templatename, context, doctree):
     context['metatags'] = context.get('metatags', '') + (
-        '<meta name="msvalidate.01" content="0CD364F244E1C3C66ED4002465FC0441" />\n'
-        '<link rel="canonical" href="https://coinbase-support.readthedocs.io" />\n'
+        # '<meta name="msvalidate.01" content="0CD364F244E1C3C66ED4002465FC0441" />\n'
+        # '<link rel="canonical" href="https://coinbase-support.readthedocs.io" />\n'
     )
 
 def setup(app):
